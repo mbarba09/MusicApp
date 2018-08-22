@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/list_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/list_number"
+        android:textSize="@dimen/list_number_text_size"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/list_number_margin_top"
+        android:textColor="@android:color/holo_orange_light"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/list_placeholder"
+        android:textSize="@dimen/list_placeholder_text_size"
+        android:layout_marginTop="@dimen/list_placeholder_margin_top"
+        android:layout_toRightOf="@id/list_number"
+        android:layout_toEndOf="@id/list_number"
+        android:textColor="@android:color/holo_orange_light"/>
+    <ImageView
+        android:contentDescription="@string/now_playing_album_artwork_description"
+        android:id="@+id/list_image"
+        android:layout_width="@dimen/list_artwork_width"
+        android:layout_height="@dimen/list_artwork_height"
+        android:layout_margin="@dimen/list_artwork_margin"
+        android:layout_toRightOf="@id/list_number"
+        android:layout_toEndOf="@id/list_number"
+        android:src="@drawable/bruno_mars_24k_gold"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/list_song_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/list_song_name"
+        android:textSize="@dimen/list_song_name_text_size"
+        android:layout_toRightOf="@id/list_image"
+        android:layout_toEndOf="@id/list_image"
+        android:layout_marginTop="@dimen/list_song_name_margin_top"
+        android:lines="1"
+        />
+
+    <TextView
+        android:id="@+id/list_album_artist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_song_name"
+        android:layout_toRightOf="@id/list_image"
+        android:layout_toEndOf="@id/list_image"
+        android:paddingRight="@dimen/list_artist_name_padding_right"
+        android:paddingEnd="@dimen/list_artist_name_padding_right"
+        android:text="@string/list_artist_name" />
+
+
+</RelativeLayout>

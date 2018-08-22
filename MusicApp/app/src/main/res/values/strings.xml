@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="music_text_view">My Music</string>
+    <string name="playlists_text_view">Playlists</string>
+    <string name="podcasts_text_view">Podcasts</string>
+    <string name="navigation_library">Library</string>
+    <string name="navigation_divider">|</string>
+    <string name="navigation_playing_now">Playing Now</string>
+    <string name="now_playing_title">Now Playing</string>
+    <string name="now_playing_song_name">24k Magic</string>
+    <string name="now_playing_artist_name">Bruno Mars</string>
+    <string name="now_playing_album_artwork_description">album artwork</string>
+    <string name="navigation_library_button_description">library button</string>
+    <string name="navigation_playing_now_description">Playing Now</string>
+    <string name="down_arrow_description">down arrow to return to your library</string>
+    <string name="like_button">like</string>
+    <string name="previous_song_button">previous song</string>
+    <string name="play_pause_button">play/pause button</string>
+    <string name="skip_song_button">Skip Song</string>
+    <string name="delete_song_button">delete song</string>
+    <string name="list_number">1</string>
+    <string name="list_placeholder">.</string>
+    <string name="list_song_name">24k Magic</string>
+    <string name="list_artist_name">Bruno Mars</string>
+</resources>

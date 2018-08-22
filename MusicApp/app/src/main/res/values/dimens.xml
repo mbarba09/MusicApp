@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navigation_elevation">8dp</dimen>
+    <dimen name="navigation_divider">48sp</dimen>
+    <dimen name="list_number_margin_top">32dp</dimen>
+    <dimen name="list_number_text_size">32sp</dimen>
+    <dimen name="list_placeholder_text_size">32sp</dimen>
+    <dimen name="list_placeholder_margin_top">32sp</dimen>
+    <dimen name="list_artwork_height">80dp</dimen>
+    <dimen name="list_artwork_width">80dp</dimen>
+    <dimen name="list_artwork_margin">16dp</dimen>
+    <dimen name="list_song_name_text_size">18sp</dimen>
+    <dimen name="list_song_name_margin_top">32dp</dimen>
+    <dimen name="list_artist_name_padding_right">32dp</dimen>
+</resources>
